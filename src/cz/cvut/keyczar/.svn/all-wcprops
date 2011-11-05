@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/376/trunk/java/code/src/org/keyczar
+END
+EcPublicKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/EcPublicKey.java
+END
+MockKeyczarReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/MockKeyczarReader.java
+END
+GenericKeyczar.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/GenericKeyczar.java
+END
+KeyczarTool.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/KeyczarTool.java
+END
+Keyczar.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/Keyczar.java
+END
+KeyczarEncryptedReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/333/trunk/java/code/src/org/keyczar/KeyczarEncryptedReader.java
+END
+UnversionedSigner.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/UnversionedSigner.java
+END
+DsaPrivateKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/DsaPrivateKey.java
+END
+Encrypter.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/Encrypter.java
+END
+Verifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/Verifier.java
+END
+KeyczarPrivateKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/KeyczarPrivateKey.java
+END
+StreamCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/StreamCache.java
+END
+DsaPublicKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/DsaPublicKey.java
+END
+KeyczarPublicKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/KeyczarPublicKey.java
+END
+HmacKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/HmacKey.java
+END
+KeyczarKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/KeyczarKey.java
+END
+AesKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/AesKey.java
+END
+TimeoutVerifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/TimeoutVerifier.java
+END
+Signer.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/Signer.java
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/COPYING
+END
+Crypter.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/Crypter.java
+END
+RsaPrivateKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/RsaPrivateKey.java
+END
+KeyMetadata.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/KeyMetadata.java
+END
+KeyczarFileReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/333/trunk/java/code/src/org/keyczar/KeyczarFileReader.java
+END
+EcPrivateKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/EcPrivateKey.java
+END
+RsaPublicKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/RsaPublicKey.java
+END
+UnversionedVerifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/357/trunk/java/code/src/org/keyczar/UnversionedVerifier.java
+END
+KeyVersion.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/KeyVersion.java
+END
+TimeoutSigner.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/TimeoutSigner.java
+END

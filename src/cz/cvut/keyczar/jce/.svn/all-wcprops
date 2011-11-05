@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/jce
+END
+EcCore.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/jce/EcCore.java
+END
+EcPublicKeyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/jce/EcPublicKeyImpl.java
+END
+EcKeyPairGeneratorImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/jce/EcKeyPairGeneratorImpl.java
+END
+EcKeyFactoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/jce/EcKeyFactoryImpl.java
+END
+EcSignatureImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/jce/EcSignatureImpl.java
+END
+EcPrivateKeyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/jce/EcPrivateKeyImpl.java
+END

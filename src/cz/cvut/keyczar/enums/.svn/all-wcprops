@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/enums
+END
+CipherMode.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/enums/CipherMode.java
+END
+KeyPurpose.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/enums/KeyPurpose.java
+END
+Flag.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/enums/Flag.java
+END
+KeyType.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/enums/KeyType.java
+END
+KeyStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/enums/KeyStatus.java
+END
+Command.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/enums/Command.java
+END

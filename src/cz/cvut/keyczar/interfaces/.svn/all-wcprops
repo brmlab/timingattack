@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/interfaces
+END
+EncryptedReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/interfaces/EncryptedReader.java
+END
+DecryptingStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/interfaces/DecryptingStream.java
+END
+SigningStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/interfaces/SigningStream.java
+END
+Stream.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/interfaces/Stream.java
+END
+KeyczarReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/interfaces/KeyczarReader.java
+END
+EncryptingStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/interfaces/EncryptingStream.java
+END
+VerifyingStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/interfaces/VerifyingStream.java
+END

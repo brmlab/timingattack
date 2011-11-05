@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/i18n
+END
+messages_hi.properties
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/i18n/messages_hi.properties
+END
+messages.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/i18n/messages.properties
+END
+messages_pt.properties
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/i18n/messages_pt.properties
+END
+Messages.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/i18n/Messages.java
+END
+messages_jp.properties
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/i18n/messages_jp.properties
+END

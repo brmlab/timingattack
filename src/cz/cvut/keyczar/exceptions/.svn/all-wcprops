@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/exceptions
+END
+ShortSignatureException.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/exceptions/ShortSignatureException.java
+END
+Base64DecodingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/exceptions/Base64DecodingException.java
+END
+KeyNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/exceptions/KeyNotFoundException.java
+END
+KeyczarException.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/exceptions/KeyczarException.java
+END
+InvalidSignatureException.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/exceptions/InvalidSignatureException.java
+END
+ShortBufferException.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/exceptions/ShortBufferException.java
+END
+NoPrimaryKeyException.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/exceptions/NoPrimaryKeyException.java
+END
+UnsupportedTypeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/exceptions/UnsupportedTypeException.java
+END
+BadVersionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/exceptions/BadVersionException.java
+END
+ShortCiphertextException.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/315/trunk/java/code/src/org/keyczar/exceptions/ShortCiphertextException.java
+END
