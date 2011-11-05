@@ -1,0 +1,27 @@
+This is timing attack demo. Requires Apache Maven 3.0.3 to build (http://maven.apache.org/).
+
+To build binaries execute (expecting that mvn is on PATH):
+$ mvn package
+
+This will execute maven in order to build jar assembly. 
+It needs internet connections to download dependencies.
+In case of problems with downloads try to re-execute command.
+The assembly will be present in directory target/.
+
+Copy the binary assembly to bin/ directory:
+$ cp target/keyczar-0.6b-jar-with-dependencies.jar bin/
+
+Create signing keys:
+$ ./createKey.sh key 0 3
+This will create directories key0/ ... key3/ with keys.
+
+Then execute server:
+$ ./startServer.sh <lvl> <port> kudofile key
+Where <lvl> is level 0 - 3 and <port> is port number as you wish to listen.
+This will read key files from directory key<lvl> and write kudofile<lvl>.
+
+To test the server:
+$ ./signMessage.sh echo_test key<lvl> message
+$ cat message | nc localhost <port>
+$ cat kudofile<lvl>
+You should see "test".
