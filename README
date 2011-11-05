@@ -1,6 +1,6 @@
 This is timing attack demo. Requires Apache Maven 3.0.3 to build (http://maven.apache.org/).
 
-To build binaries execute (expecting that mvn is on PATH):
+To build binaries execute (assuming that mvn is on PATH and you are where pom.xml file is):
 $ mvn package
 
 This will execute maven in order to build jar assembly. 
@@ -8,8 +8,9 @@ It needs internet connections to download dependencies.
 In case of problems with downloads try to re-execute command.
 The assembly will be present in directory target/.
 
-Copy the binary assembly to bin/ directory:
+Copy the binary assembly to bin/ directory and go there:
 $ cp target/keyczar-0.6b-jar-with-dependencies.jar bin/
+$ cd bin/
 
 Create signing keys:
 $ ./createKey.sh key 0 3
