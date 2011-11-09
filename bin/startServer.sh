@@ -12,7 +12,8 @@ fi
 
 milis=0
 if [ $1 -eq 0 ]; then
-    nanos=1000000
+    nanos=0
+    milis=1
 elif [ $1 -eq 1 ]; then
     nanos=10000
 elif [ $1 -eq 2 ]; then

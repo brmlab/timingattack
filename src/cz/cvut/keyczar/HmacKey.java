@@ -106,7 +106,7 @@ public class HmacKey extends KeyczarKey {
       if ((System.getProperty("milis") != null) && (System.getProperty("nanos") != null)) {
           this.milis = Long.parseLong(System.getProperty("milis"));
           this.nanos = Integer.parseInt(System.getProperty("nanos"));
-          if (milis != 0 && nanos != 0) delay = true;
+          if (milis > 0 || nanos > 0) delay = true;
       }
       if (delay) System.out.println("Delay setting: milis="+milis+", nanos="+nanos);
       else System.out.println("Delay setting: none");
