@@ -28,7 +28,7 @@
         <finalName>${project.artifactId}-${project.version}</finalName>
         <sourceDirectory>src</sourceDirectory>
         <scriptSourceDirectory>scripts</scriptSourceDirectory>
-	<testSourceDirectory>tests</testSourceDirectory>
+	    <testSourceDirectory>tests</testSourceDirectory>
 	<resources>
 	    <resource>
 	        <directory>src</directory>
@@ -39,6 +39,18 @@
 	    </resource>
 	</resources>
         <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <mainClass>cz.cvut.keyczar.homework.VerificationServer</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -56,6 +68,11 @@
           <descriptorRefs>
             <descriptorRef>jar-with-dependencies</descriptorRef>
           </descriptorRefs>
+          <archive>
+            <manifest>
+              <mainClass>cz.cvut.keyczar.homework.VerificationServer</mainClass>
+            </manifest>
+          </archive>
         </configuration>
         <executions>
           <execution>
