@@ -70,7 +70,7 @@ public class HmacCracker implements Runnable {
     }
     
     private boolean dfs(byte[] hmac, int ptr) {
-        byte[] guessed = null;
+        int[] guessed = null;
         if (ptr <= this.hmac.length) {
             guessed = guessNext(message, hmac, ptr, maxIterations, inputStream, outputStream);
             if (guessed==null) {
@@ -92,7 +92,7 @@ public class HmacCracker implements Runnable {
         return false;
     }
 
-    private byte[] guessNext(byte[] msg, byte[] hmac, int ptr, int maxIt, InputStream is, OutputStream os) {
+    private int[] guessNext(byte[] msg, byte[] hmac, int ptr, int maxIt, InputStream is, OutputStream os) {
 
         List<long[]> statsPool = new ArrayList<long[]>();
 
@@ -124,7 +124,7 @@ public class HmacCracker implements Runnable {
                 statsPool.add(Arrays.copyOf(stats, stats.length));
                 maxIt--;
             }
-            byte[] bestM = CrackerCore.select(statsPool);
+            int[] bestM = CrackerCore.select(statsPool);
             if (bestM == null) {
                 bin = bin*2;
                 System.out.print("#"); // we need to collect more stats
