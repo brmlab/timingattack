@@ -99,14 +99,18 @@ public class HmacKey extends KeyczarKey {
     private Mac hmac;
       private long milis = 0;
       private int nanos = 0;
+      private boolean delay = false;
 
       public HmacStream() throws KeyczarException {
 
-      if ((System.getProperty("millis") != null) && (System.getProperty("nanos") != null)) {
-          this.milis = Long.parseLong(System.getProperty("millis"));
+      if ((System.getProperty("milis") != null) && (System.getProperty("nanos") != null)) {
+          this.milis = Long.parseLong(System.getProperty("milis"));
           this.nanos = Integer.parseInt(System.getProperty("nanos"));
+          if (milis != 0 && nanos != 0) delay = true;
       }
-
+      if (delay) System.out.println("Delay setting: milis="+milis+", nanos="+nanos);
+      else System.out.println("Delay setting: none");
+      
       try {
         hmac = Mac.getInstance(MAC_ALGORITHM);
       } catch (GeneralSecurityException e) {
@@ -154,7 +158,7 @@ public class HmacKey extends KeyczarKey {
         if (macResult[pos] != sigBytes[pos]) {
 	      return false;
         }
-        if ((milis!=0) || (nanos!=0)) {
+        if (delay) {
           try { Thread.sleep(milis, nanos); } catch (InterruptedException e) {}
         }
 
