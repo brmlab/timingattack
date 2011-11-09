@@ -50,7 +50,7 @@ public class MessageVerifier implements Runnable {
             socket.shutdownInput();
             socket.close();
         } catch (IOException e) {
-            e.printStackTrace();
+            System.err.println("ERROR: " + e.getMessage());
         }
 	}
 
@@ -65,6 +65,7 @@ public class MessageVerifier implements Runnable {
 			}
 			catch (Throwable t) {
 				System.err.println("ERROR: " + t.getMessage());
+                break;
 			}
 		}
 	}
