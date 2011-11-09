@@ -28,4 +28,4 @@ else
     exit 1
 fi
 
-java -Dmilis=$milis -Dnanos=$nanos -Dfile.encoding=UTF-8 -classpath $CP cz.cvut.keyczar.homework.VerificationServer $2 $3$1 $4$1
+java -Dmilis=$milis -Dnanos=$nanos -Dfile.encoding=UTF-8 -jar $JAR $2 $3$1 $4$1
