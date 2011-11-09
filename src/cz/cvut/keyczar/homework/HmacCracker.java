@@ -27,6 +27,7 @@ public class HmacCracker implements Runnable {
     byte[] hmac;
     int maxIterations;
     int totalIterations = 0;
+    CrackerCore core = new CrackerCore();
 
     public HmacCracker(OutputStream outputStream, InputStream inputStream, int iMax, byte[] signature, char[] msg) {
 		this.outputStream = outputStream;
@@ -124,7 +125,7 @@ public class HmacCracker implements Runnable {
                 statsPool.add(Arrays.copyOf(stats, stats.length));
                 maxIt--;
             }
-            int[] bestM = CrackerCore.select(statsPool);
+            int[] bestM = core.select(statsPool, hmac);
             if (bestM == null) {
                 bin = bin*2;
                 System.out.print("#"); // we need to collect more stats
